@@ -2,6 +2,7 @@
 buildscript {
     dependencies {
         classpath("com.google.dagger:hilt-android-gradle-plugin:2.45")
+        classpath("org.jetbrains.kotlin:kotlin-serialization:1.7.20")
     }
     repositories {
         google()  // Google's Maven repository
