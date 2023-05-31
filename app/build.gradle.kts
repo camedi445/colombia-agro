@@ -3,6 +3,8 @@ plugins {
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
     id("kotlinx-serialization")
+    id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
     kotlin("android")
 }
 
@@ -15,7 +17,7 @@ android {
         minSdk = 24
         targetSdk = 33
         versionCode = 1
-        versionName = "1.0"
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
@@ -85,6 +87,13 @@ dependencies {
     implementation("io.ktor:ktor-client-serialization-jvm:1.5.0")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1")
     implementation("io.ktor:ktor-client-logging-jvm:1.5.0")
+
+    // Firebase
+    implementation("com.google.firebase:firebase-bom:32.0.0")
+    implementation("com.google.firebase:firebase-analytics-ktx:21.2.2")
+    implementation("com.google.firebase:firebase-crashlytics-ktx:18.3.7")
+    implementation("com.google.firebase:firebase-config-ktx:21.4.0")
+    implementation("com.google.firebase:firebase-storage-ktx:20.2.0")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
