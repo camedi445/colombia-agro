@@ -3,8 +3,11 @@ plugins {
     id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
     id("kotlinx-serialization")
+<<<<<<< HEAD
     id("com.google.gms.google-services")
     id("com.google.firebase.crashlytics")
+=======
+>>>>>>> 9016326ff249ca29744219daf212a1cf2a018466
     kotlin("android")
 }
 
@@ -88,6 +91,7 @@ dependencies {
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.0.1")
     implementation("io.ktor:ktor-client-logging-jvm:1.5.0")
 
+<<<<<<< HEAD
     // Firebase
     implementation("com.google.firebase:firebase-bom:32.0.0")
     implementation("com.google.firebase:firebase-analytics-ktx:21.2.2")
@@ -95,6 +99,8 @@ dependencies {
     implementation("com.google.firebase:firebase-config-ktx:21.4.0")
     implementation("com.google.firebase:firebase-storage-ktx:20.2.0")
 
+=======
+>>>>>>> 9016326ff249ca29744219daf212a1cf2a018466
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
