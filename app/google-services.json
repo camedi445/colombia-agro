@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "243966385432",
+    "project_id": "colombiaagro-8d23c",
+    "storage_bucket": "colombiaagro-8d23c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243966385432:android:487734296eca32228b926d",
+        "android_client_info": {
+          "package_name": "co.colombiaagro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR2N3PngjHi40k7FkzE9hsMrq0I2P6Es0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
