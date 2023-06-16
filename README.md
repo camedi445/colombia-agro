@@ -9,7 +9,8 @@
 
 - [x] Add guidelines for add a new feature (Part 1 - basic information) -> Camilo Medina
 - [x]  Create SplashScreen -> Camilo Medina
-- [ ] Centralize library versions
+- [x] Centralize library versions -> Wilmer Hurtado
+- [x]  Implement version catalogs -> Wilmer Hurtado
 - [ ] Add a basic dependency injection implementation
 - [ ]  Create HomeScreen
 - [ ]  Create RegisterScreen
