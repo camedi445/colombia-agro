@@ -7,12 +7,10 @@
 
 # To-do list
 
-- [x] Add guidelines for add a new feature (Part 1 - basic information) -> Camilo Medina
-- [x]  Create SplashScreen -> Camilo Medina
-- [ ] Add a basic dependency injection implementation
-- [ ]  Create HomeScreen
+- [x]  Create HomeScreen and bottom navigation -> Camilo Medina 
 - [ ]  Create RegisterScreen
 - [ ]  Create DetailScreen
+- [ ]  Add a basic dependency injection implementation
 
 
 # Technology/dependency usage agreement
