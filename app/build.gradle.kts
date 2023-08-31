@@ -77,6 +77,9 @@ dependencies {
     // Ktor
     implementation(libs.bundles.ktor.implementation)
 
+    // Splash screen
+    implementation(libs.androidx.splash.screen)
+
     // Firebase
     implementation(platform(libs.firebase.bom))
     implementation(libs.bundles.firebase.implementation)

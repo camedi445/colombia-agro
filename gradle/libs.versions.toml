@@ -3,6 +3,7 @@ androidx-compose-bom = "2023.05.01"
 androidx-constraintlayout = "1.0.1"
 androidx-core-ktx = "1.10.1"
 androidx-hilt = "1.0.0"
+androidx-splash-screen = "1.0.1"
 androidx-lifecycle-runtime-ktx = "2.6.1"
 androidx-test-junit = "1.1.5"
 androidx-test-espresso-core = "3.5.1"
@@ -41,6 +42,8 @@ dagger-hilt-android-compiler = { module = "com.google.dagger:hilt-android-compil
 androidx-hilt-compiler = { module = "androidx.hilt:hilt-compiler", version.ref = "androidx-hilt" }
 androidx-hilt-navigation-fragment = { module = "androidx.hilt:hilt-navigation-fragment", version.ref = "androidx-hilt" }
 androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "androidx-hilt" }
+
+androidx-splash-screen = { module = "androidx.core:core-splashscreen", version.ref = "androidx-splash-screen"}
 
 ktor-client-android = { module = "io.ktor:ktor-client-android", version.ref = "ktor" }
 ktor-client-serialization-jvm = { module = "io.ktor:ktor-client-serialization-jvm", version.ref = "ktor" }
